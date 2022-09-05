@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+}
+
+.main-nav {
+  display: flex;
+  width: 100px;
+  height: 5rem;
+}
+.main-nav__hamburger {
+  width: 100px;
+  height: auto;
+  background-image: url(hamburger.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: left;
+}
+.main-nav__hamburger:hover {
+  opacity: 0.5;
+}
+.main-nav__text {
+  margin: auto;
+  font-size: 2rem;
+
+}
+
+.navbar:hover .side-nav__list {
+  transition: all 0.3s ease-in-out;
+}
+
+.side-nav__list {
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+  list-style-type: none;
+}
+.side-nav__list .home {
+  background-color: #cdcdcd;
+}
+
+.side-nav__list .green {
+  background-color: green;
+}
+.side-nav__list .blue {
+  background-color: blueviolet;
+}
+.side-nav__list .orange {
+  background-color: orange;
+}
+.side-nav__list .red {
+  background-color: #ff0000;
+}
+.side-nav__list--item {
+  padding: 15px;
+  border: none;
+}
